@@ -4,6 +4,7 @@ import random
 
 bot = commands.Bot()
 
+
 @bot.slash_command(name="help", description="info on the bot")
 async def help(ctx):
 
